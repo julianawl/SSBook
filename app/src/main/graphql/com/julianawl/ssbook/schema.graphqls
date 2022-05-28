@@ -1,0 +1,59 @@
+type Author {
+  id: ID!
+
+  name: String!
+
+  picture: String!
+
+  booksCount: Int!
+
+  isFavorite: Boolean!
+
+  books: [Book!]!
+}
+
+type Book {
+  id: ID!
+
+  name: String!
+
+  author: Author!
+
+  cover: String!
+
+  description: String!
+
+  isFavorite: Boolean!
+
+  category: Category!
+}
+
+enum Category {
+  ROMANCE
+
+  ADVENTURE
+
+  COMEDY
+
+  HORROR
+
+  TECHNOLOGY
+
+  TRAVEL
+}
+
+type Query {
+  userPicture: String!
+
+  favoriteBooks: [Book!]!
+
+  favoriteAuthors: [Author!]!
+
+  allBooks: [Book!]!
+
+  book(id: ID!): Book!
+}
+
+schema {
+  query: Query
+}

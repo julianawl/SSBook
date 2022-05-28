@@ -1,0 +1,7 @@
+query Library {
+    allBooks {
+        id, name, cover, author {
+            name
+        }
+    }
+}

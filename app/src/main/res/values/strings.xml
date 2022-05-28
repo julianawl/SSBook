@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SSBook</string>
+    <string name="tab_my_books_title">Meus Livros</string>
+    <string name="tab_borrowed_title">Emprestados</string>
+    <string name="favorite_books_title">Livros Favoritos</string>
+    <string name="see_all_tv">ver todos</string>
+    <string name="favorite_authors_title">Autores Favoritos</string>
+    <string name="library_title">Biblioteca</string>
+    <string name="filter_all">Todos</string>
+</resources>

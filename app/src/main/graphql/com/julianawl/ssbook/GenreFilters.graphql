@@ -1,0 +1,7 @@
+query GenreFilters {
+    __type (name: "Category") {
+        enumValues{
+            name
+        }
+    }
+}

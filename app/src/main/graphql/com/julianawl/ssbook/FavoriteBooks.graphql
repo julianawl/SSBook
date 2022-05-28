@@ -1,0 +1,7 @@
+query FavoriteBooks {
+    favoriteBooks {
+        id, name, cover, author {
+            name
+        }
+    }
+}
